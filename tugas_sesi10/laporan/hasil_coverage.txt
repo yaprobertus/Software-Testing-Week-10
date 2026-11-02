@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0
+rootdir: /home/claude/tugas_sesi10
+configfile: pytest.ini
+testpaths: tests
+plugins: cov-7.1.0
+collected 78 items
+
+tests/test_pesanan.py .............................                      [ 37%]
+tests/test_refund_policy.py .....................                        [ 64%]
+tests/test_seat_store.py ............................                    [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name                      Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------
+sesi10/__init__.py            0      0      0      0   100%
+sesi10/pesanan.py            29      0      2      0   100%
+sesi10/refund_policy.py      19      0     12      0   100%
+sesi10/seat_store.py         61      0     22      0   100%
+---------------------------------------------------------------------
+TOTAL                       109      0     36      0   100%
+============================== 78 passed in 0.29s ==============================
